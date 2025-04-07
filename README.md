@@ -1,22 +1,45 @@
-# Landing page
+# Nothing Landing Page
 
-> ❗❗ You will complete this task in the topic **Landing**.
-> Now just choose a design and do the parts from the videos
+A responsive landing page for Nothing products implemented using HTML, SCSS, and JavaScript.
 
-Choose a design for your landing page:
-- [MET landing](https://www.figma.com/file/lSR1m42L9YwzQwzzxKwHpw/THE-MET)
-- [MYBIKE landing](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
-- [B&O](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6817-212&t=ZTV6Gl8NzaWkJ4FK-0)
-- [Nothing](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6802-139&t=L7eKz5YKLN0m5WxR-0)
+![Nothing Landing Page Homepage](src/images/homePage.png)
 
-Follow the videos in this and next lessons to implement the page block by block
-- Here is [the design from the video](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6703-88&t=L7eKz5YKLN0m5WxR-0) (❗❗ DO NOT implement this design ❗❗ choose one of the options above ❗❗ ☝️)
-- Start writing styles in the `main.scss` file. It is be explained in the `Sass` lesson
-- **DON'T** try to do it `Pixel Perfect` - implement it the most `simple` way so it looks similar;
-- When done check yourself using the [CHECKLIST](./checklist.md) when finished;
-- Deploy and create a Pull Request with a [DEMO LINK](https://igor-romasiuk
-.github.io/layout_landing-page/)
+## Project Overview
 
-# Tips & Hints
-- Check `background-image: url()` to be relative to the `main.scss`. So should start with `../images`.
-- If some points from the checklist are not relevant to your design, just skip it.
+This project is a pixel-perfect implementation of the Nothing landing page design. The page showcases Nothing's product lineup including phones and audio devices in a modern, clean interface.
+
+## Features
+
+- Responsive design that works across mobile, tablet, and desktop devices
+- Interactive menu navigation
+- Product showcase sections
+- Category browsing
+- Clean, minimal aesthetic matching Nothing's brand identity
+
+## Technologies Used
+
+- HTML5
+- SCSS for styling
+- JavaScript for interactivity
+- BEM methodology for CSS class naming
+- Responsive design principles
+
+## Project Structure
+
+- `src/` - Source files
+  - `index.html` - Main HTML document
+  - `styles/` - SCSS stylesheets
+  - `scripts/` - JavaScript files
+  - `images/` - Image assets
+
+## Development
+
+To run this project locally:
+
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Run the development server with `npm start`
+
+## Deployment
+
+The site is deployed at: [DEMO LINK](https://igor-romasiuk.github.io/layout_landing-page/)
